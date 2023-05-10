@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
-import { create } from '../_actions';
+import { create } from '../_actions.js';
 
 const NewTodoForm = () => {
   const formRef = useRef();
